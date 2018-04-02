@@ -1,0 +1,21 @@
+{
+  "name": "public",
+  "authors": [
+    "John Reemar Dela Rosa <jrddelarosa@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "note-app-elements": "polymerlabs/note-app-elements#^2.1.2",
+    "polymerfire": "firebase/polymerfire#^2.2.1"
+  }
+}
