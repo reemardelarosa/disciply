@@ -15,7 +15,15 @@
     "tests"
   ],
   "dependencies": {
-    "note-app-elements": "polymerlabs/note-app-elements#^2.1.2",
-    "polymerfire": "firebase/polymerfire#^2.2.1"
+    "note-apps": "https://github.com/disciply/note-app.git",
+    "polymerfire": "firebase/polymerfire#^2.2.1",
+    "platinum-sw": "PolymerElements/platinum-sw#^2.1.0"
+  },
+  "resolutions": {
+    "platinum-sw": "^2.1.0",
+    "polymerfire": "^2.2.1",
+    "app-storage": "1 - 2",
+    "firebase": "^4.1.1",
+    "webcomponentsjs": "^v1.1.0"
   }
 }

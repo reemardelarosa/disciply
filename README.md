@@ -5,3 +5,25 @@ Disciply is a revolutionary app that will help build and equip  Christian Leader
 
 ## Problem/ Solution
 1. 
+
+## Technologies
+ - Polymer
+ - Firebase
+ - Polymerfire
+
+
+
+## Running the app
+
+### Requirements
+- Node.js version 6.0.0 or greater
+- Bower - latest version
+- Firebase-tools
+
+
+`bower install`
+> Install all dependencies.
+
+
+`firebase serve`
+>  Open the app in the browser `http://localhost:5000`

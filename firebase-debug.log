@@ -30,3 +30,113 @@
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2018-04-02T07:08:56.939Z] ----------------------------------------------------------------------
+[debug] [2018-04-02T07:08:56.941Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-02T07:08:56.941Z] CLI Version:   3.17.7
+[debug] [2018-04-02T07:08:56.941Z] Platform:      win32
+[debug] [2018-04-02T07:08:56.941Z] Node Version:  v8.9.4
+[debug] [2018-04-02T07:08:56.942Z] Time:          Mon Apr 02 2018 15:08:56 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-02T07:08:56.942Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-02T07:08:56.972Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-02T07:08:56.973Z] > authorizing via signed-in user
+[debug] [2018-04-02T07:08:56.975Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-02T07:08:56.975Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/XKYGbkpvTmpPYPaFlDsBMqnCJy4MN6opByyVvEDkUi4x_iHu7sF4Tlby9lQ8P3fO',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 02 2018 15:08:56 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-02T07:09:07.635Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T07:09:07.644Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/disciple-32679  
+  
+ Mon Apr 02 2018 15:09:07 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-02T07:09:31.657Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+[debug] [2018-04-07T17:53:13.765Z] ----------------------------------------------------------------------
+[debug] [2018-04-07T17:53:13.767Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-07T17:53:13.768Z] CLI Version:   3.17.7
+[debug] [2018-04-07T17:53:13.768Z] Platform:      win32
+[debug] [2018-04-07T17:53:13.768Z] Node Version:  v8.9.4
+[debug] [2018-04-07T17:53:13.768Z] Time:          Sun Apr 08 2018 01:53:13 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T17:53:13.769Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-07T17:53:14.058Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-07T17:53:14.058Z] > authorizing via signed-in user
+[debug] [2018-04-07T17:53:14.060Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-07T17:53:14.060Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/XKYGbkpvTmpPYPaFlDsBMqnCJy4MN6opByyVvEDkUi4x_iHu7sF4Tlby9lQ8P3fO',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Apr 08 2018 01:53:14 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T17:53:18.371Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T17:53:18.380Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/disciple-32679  
+  
+ Sun Apr 08 2018 01:53:18 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T17:53:23.826Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T17:53:23.827Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/disciple-32679/tokens  
+  
+ Sun Apr 08 2018 01:53:23 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T17:53:27.375Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T17:53:27.375Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/disciple-32679  
+  
+ Sun Apr 08 2018 01:53:27 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T17:53:33.170Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\REPO\disciply\disciply'...
+[info] 
+[debug] [2018-04-07T17:53:33.173Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/986429990725/clients/_:getWebAppConfig  
+  
+ Sun Apr 08 2018 01:53:33 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T17:53:38.065Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2018-04-07T19:10:02.273Z] ----------------------------------------------------------------------
+[debug] [2018-04-07T19:10:02.275Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-07T19:10:02.275Z] CLI Version:   3.17.7
+[debug] [2018-04-07T19:10:02.276Z] Platform:      win32
+[debug] [2018-04-07T19:10:02.276Z] Node Version:  v8.9.4
+[debug] [2018-04-07T19:10:02.276Z] Time:          Sun Apr 08 2018 03:10:02 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T19:10:02.276Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-07T19:10:02.286Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-07T19:10:02.287Z] > authorizing via signed-in user
+[debug] [2018-04-07T19:10:02.288Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-07T19:10:02.288Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/XKYGbkpvTmpPYPaFlDsBMqnCJy4MN6opByyVvEDkUi4x_iHu7sF4Tlby9lQ8P3fO',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Apr 08 2018 03:10:02 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T19:10:02.674Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T19:10:02.683Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/disciple-32679  
+  
+ Sun Apr 08 2018 03:10:02 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T19:10:04.126Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T19:10:04.127Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/disciple-32679/tokens  
+  
+ Sun Apr 08 2018 03:10:04 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T19:10:05.016Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T19:10:05.017Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/disciple-32679  
+  
+ Sun Apr 08 2018 03:10:05 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T19:10:06.438Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\REPO\disciply\disciply'...
+[info] 
+[debug] [2018-04-07T19:10:06.443Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/986429990725/clients/_:getWebAppConfig  
+  
+ Sun Apr 08 2018 03:10:06 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-04-07T19:10:07.462Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
