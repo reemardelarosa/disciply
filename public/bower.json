@@ -15,7 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "note-apps": "https://github.com/disciply/note-app.git",
+    "note-apps": "https://github.com/googlearchive/note-app-elements.git",
     "polymerfire": "firebase/polymerfire#^2.2.1",
     "platinum-sw": "PolymerElements/platinum-sw#^2.1.0"
   },
